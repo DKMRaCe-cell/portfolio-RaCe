@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="competences.html" class="nav-link">Compétences</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        
+            <form method="post" action="envoyer_email.php">
+  <label for="nom">Nom :</label>
+  <input type="text" name="nom" id="nom" placeholder="Nom" required>
+  <label for="email">Email :</label>
+  <input type="email" name="email" id="email" placeholder="Email" required>
+  <label for="message">Message :</label>
+  <textarea name="message" id="message" placeholder="Message" required></textarea>
+  <button type="submit" name="envoyer" class="btn-green">Envoyer</button>
+</form>
+
+    </section>
+</body>
+</html>
